@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f7fc; /* Light blueish-gray for a modern feel */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.input-container {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+
+.input-container input {
+    border: none;
+    outline: none;
+    padding: 12px;
+    margin-block: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.input-container input[type="text"] {
+    width: 70%;
+    border: 1px solid #4a90e2; /* Soft blue border */
+    padding: 12px;
+}
+
+.input-container input[type="button"] {
+    background-color: #4a90e2; /* Fresh blue color */
+    color: #fff;
+    font-weight: 700;
+    margin-left: 8px;
+    cursor: pointer;
+    padding: 12px 24px;
+    border-radius: 6px;
+    transition: background 0.3s;
+}
+
+.input-container input[type="button"]:hover {
+    background-color: #357abf; /* Slightly darker blue on hover */
+}
+
+ul {
+    width: 70%;
+    max-width: 450px;
+}
+
+ul li {
+    list-style-type: none;
+    cursor: pointer;
+    margin-block-end: 12px;
+    border-radius: 8px;
+    border: 1px solid #d1d1d1;
+    padding: 6px 12px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.5s;
+}
+
+ul li:hover {
+    background-color: #e3e9f7; /* Light blue-gray hover effect */
+}
+
+ul li p {
+    flex-grow: 1;
+    padding: 2px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: none;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.deleteBtn {
+    color: #A31D1D; /* Deep Red */
+}
+
+.deleteBtn:hover {
+    color: #801616; /* Darker Red on hover */
+    transform: scale(1.1);
+}
+
+.editBtn {
+    color: #15B392; /* Vibrant Teal */
+}
+
+.editBtn:hover {
+    color: #1dbfa1; /* Slightly lighter teal on hover */
+    transform: scale(1.1);
+}
+
+/* Add button with color #500073 */
+.addBtn {
+    background-color: #500073; /* Rich Purple */
+    color: #fff;
+    font-weight: 700;
+    padding: 12px 24px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.addBtn:hover {
+    background-color: #6a009d; /* Slightly lighter purple on hover */
+}
